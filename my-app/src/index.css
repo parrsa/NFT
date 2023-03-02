@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: "Montserrat";
+    src: url('./Font/Montserrat/Montserrat-VariableFont_wght.ttf');
+}
+
+*{
+    scrollbar-width: 2px;
+    scrollbar-color: white;
+}
+*::-webkit-scrollbar{
+    width: 10px;
+}
+*::-webkit-scrollbar-track{
+    background: #fff;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb{
+    background: linear-gradient(#BB47A6,#4E6DD8);
+}
